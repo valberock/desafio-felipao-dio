@@ -3,7 +3,7 @@
 # ---------------------------------------------
 
 # Nome do herói
-nome = "Aragorn"
+nome = (input("Digite o nome do herói: "))
 
 # Recebe a quantidade de experiência (xp) como número inteiro
 xp = int(input("Digite a quantidade de experiência (XP) do herói: "))
