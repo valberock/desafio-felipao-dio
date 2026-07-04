@@ -5,6 +5,9 @@ Calcula o saldo de vitórias (vitórias - derrotas) de um jogador
 e informa em qual nível/patente ele se encontra.
 """
 
+# Nome do heroi
+nome = input("Digite o nome do herói: ")
+
 
 def calcular_nivel(vitorias):
     """Recebe a quantidade de vitórias e retorna o nível correspondente."""
@@ -36,7 +39,8 @@ def calcular_saldo(vitorias, derrotas):
 
 def exibir_resultado(saldo_vitorias, nivel):
     """Exibe a mensagem final formatada."""
-    print(f"O Herói tem de saldo de {saldo_vitorias} está no nível de {nivel}")
+    print(
+        f"O Herói {nome}tem de saldo de {saldo_vitorias} está no nível de {nivel}")
 
 
 def main():
